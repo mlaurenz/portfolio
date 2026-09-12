@@ -5,156 +5,117 @@ export default function Home() {
     <div className="min-h-screen bg-white text-black font-sans">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-black/5">
-        <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
           <span className="text-sm font-medium tracking-tight">ML</span>
-          <div className="flex gap-8 text-sm">
-            <a href="#about" className="text-black/60 hover:text-black transition-colors">About</a>
-            <a href="#partnership" className="text-black/60 hover:text-black transition-colors">Partnership</a>
-            <a href="#cta" className="text-black/60 hover:text-black transition-colors">Contact</a>
-          </div>
+          <a href="#contact" className="text-sm text-black/60 hover:text-black transition-colors">Contact</a>
         </div>
       </nav>
 
       {/* Hero */}
-      <section id="about" className="pt-40 pb-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-6">Matías Laurenz</p>
-          <h1 className="text-5xl md:text-7xl font-light leading-[1.1] tracking-tight max-w-3xl">
-            Technology & AI Business Partner para empresas que quieren crecer.
+      <section className="pt-40 pb-24 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-5xl md:text-7xl font-light leading-[1.1] tracking-tight">
+            Technology & AI<br />
+            Business Partner
           </h1>
           <p className="mt-8 text-xl md:text-2xl text-black/60 max-w-2xl leading-relaxed">
-            25+ años construyendo empresas. Ahora utilizo esa experiencia + tecnología + AI para hacer que las cosas sucedan en tu negocio.
+            I help companies use technology and AI to build, improve and scale their businesses.
           </p>
         </div>
       </section>
 
       {/* Divider */}
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-6">
         <div className="border-t border-black/10"></div>
       </div>
 
-      {/* Partnership */}
-      <section id="partnership" className="py-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16">
-            {/* Left: What it is */}
-            <div>
-              <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-6">01 / El Partnership</p>
-              <h2 className="text-3xl md:text-4xl font-light leading-tight mb-6">
-                No vendo horas.<br />
-                Vendo resultados.
-              </h2>
-              <p className="text-lg text-black/60 leading-relaxed">
-                Un partnership mensual donde combino experiencia empresarial, conocimiento tecnológico y AI para identificar oportunidades, automatizar procesos y convertir problemas en soluciones concretas.
-              </p>
-            </div>
-
-            {/* Right: What you get */}
-            <div className="space-y-8">
-              <div className="border-l-2 border-black pl-6">
-                <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-2">Estrategia</p>
-                <p className="text-lg">Identificar dónde la tecnología puede multiplicar el impacto de tu negocio.</p>
-              </div>
-              <div className="border-l-2 border-black pl-6">
-                <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-2">Implementación</p>
-                <p className="text-lg">No solo ideas: ejecutar. Herramientas, AI, automatización, agentes.</p>
-              </div>
-              <div className="border-l-2 border-black pl-6">
-                <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-2">Conexión</p>
-                <p className="text-lg">Acceso a mi red. Gente, oportunidades, recursos.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Price */}
-          <div className="mt-20 p-8 md:p-12 bg-black text-white">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-              <div>
-                <p className="text-xs font-medium tracking-widest uppercase text-white/40 mb-4">Investment</p>
-                <p className="text-4xl md:text-5xl font-light">$750<span className="text-xl text-white/60">/month</span></p>
-              </div>
-              <div className="text-white/60 text-sm max-w-md">
-                <p>Dedicación directa + herramientas + AI + implementación. No vendo mi tiempo; lo multiplico con tecnología.</p>
-              </div>
-            </div>
+      {/* What I do */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-8">What I do</p>
+          <div className="flex flex-wrap gap-4 text-lg">
+            <span className="px-4 py-2 border border-black/10">Strategy</span>
+            <span className="px-4 py-2 border border-black/10">Technology</span>
+            <span className="px-4 py-2 border border-black/10">AI</span>
+            <span className="px-4 py-2 border border-black/10">Automation</span>
+            <span className="px-4 py-2 border border-black/10">Implementation</span>
           </div>
         </div>
       </section>
 
       {/* Divider */}
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-6">
         <div className="border-t border-black/10"></div>
       </div>
 
-      {/* Credibility */}
-      <section className="py-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-12">02 / Trayectoria</p>
+      {/* Who I am */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-8">Who I am</p>
           
-          <div className="grid md:grid-cols-3 gap-12">
-            {/* Experience */}
+          <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-6xl font-light text-black/10 mb-4">25+</p>
-              <p className="text-lg font-medium">años en tecnología y negocios</p>
-              <p className="text-black/50 mt-2">Emprendí, construí, vendí, invertí.</p>
+              <p className="text-5xl font-light mb-4">25+</p>
+              <p className="text-black/60">years in technology & business</p>
             </div>
-
-            {/* Companies */}
-            <div>
-              <p className="text-6xl font-light text-black/10 mb-4">4</p>
-              <p className="text-lg font-medium">empresas construidas</p>
-              <p className="text-black/50 mt-2">Fonselp, Routepags, Centralpos, Wingu</p>
-            </div>
-
-            {/* Exit */}
-            <div>
-              <p className="text-6xl font-light text-black/10 mb-4">1</p>
-              <p className="text-lg font-medium">exit a Prisma Medios de Pago</p>
-              <p className="text-black/50 mt-2">Centralpos.com, el concentrador de débitos.</p>
+            
+            <div className="space-y-6">
+              <div>
+                <p className="text-sm text-black/40 mb-1">Entrepreneur</p>
+                <p className="text-lg">Built and scaled companies in LATAM and US</p>
+              </div>
+              <div>
+                <p className="text-sm text-black/40 mb-1">MBA — IAE Business School</p>
+                <p className="text-lg">Administration</p>
+              </div>
+              <div>
+                <p className="text-sm text-black/40 mb-1">Projects</p>
+                <p className="text-lg">Fonselp · Routepags · Centralpos · Wingu</p>
+              </div>
+              <div>
+                <p className="text-sm text-black/40 mb-1">Exit</p>
+                <p className="text-lg">Sold Centralpos to Prisma Medios de Pago</p>
+              </div>
             </div>
           </div>
 
-          {/* Context */}
-          <div className="mt-16 grid md:grid-cols-2 gap-8">
-            <div className="text-black/60">
-              <p className="mb-4">MBA — IAE Business School</p>
-              <p>Administración de Empresas</p>
-            </div>
-            <div className="text-black/60">
-              <p className="mb-4">Mentor — IDEX.LA</p>
-              <p>Instituto para el Desarrollo Exponencial en Latinoamérica</p>
-            </div>
+          <div className="mt-12 flex gap-6">
+            <a href="https://linkedin.com/in/matiaslaurenz" target="_blank" rel="noopener noreferrer" className="text-sm border-b border-black/20 hover:border-black transition-colors">LinkedIn</a>
+            <a href="https://centralpos.com" target="_blank" rel="noopener noreferrer" className="text-sm border-b border-black/20 hover:border-black transition-colors">Centralpos</a>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section id="cta" className="py-24 px-6 bg-black text-white">
-        <div className="max-w-5xl mx-auto text-center">
-          <p className="text-xs font-medium tracking-widest uppercase text-white/40 mb-8">03 / Hablemos</p>
-          <h2 className="text-4xl md:text-6xl font-light mb-8">
-            ¿Querés tener un partner<br />para hacer crecer tu negocio?
-          </h2>
-          <a 
-            href="mailto:mlaurenz@gmail.com?subject=Partnership"
-            className="inline-block px-10 py-4 bg-white text-black text-lg font-medium hover:bg-white/90 transition-colors"
-          >
-            LET&apos;S TALK
-          </a>
-          <p className="mt-8 text-white/40 text-sm">
-            mlaurenz@gmail.com
-          </p>
+      {/* Divider */}
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="border-t border-black/10"></div>
+      </div>
+
+      {/* Partnership offer */}
+      <section id="contact" className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-8">How to work with me</p>
+          
+          <div className="p-8 border border-black">
+            <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-4">Technology & AI Partnership</p>
+            <p className="text-4xl md:text-5xl font-light mb-6">From $750/month</p>
+            <p className="text-black/60 max-w-lg mb-8">
+              I combine my experience, time and technology/AI to implement real solutions for your business.
+            </p>
+            <a 
+              href="mailto:mlaurenz@gmail.com?subject=Partnership"
+              className="inline-block px-8 py-3 bg-black text-white text-sm font-medium hover:bg-black/80 transition-colors"
+            >
+              HABLEMOS
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-black/40">
+      <footer className="py-8 px-6">
+        <div className="max-w-4xl mx-auto text-sm text-black/40">
           <p>© 2026 Matías Laurenz</p>
-          <div className="flex gap-6">
-            <a href="https://linkedin.com/in/matiaslaurenz" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">LinkedIn</a>
-            <a href="https://github.com/mlaurenz" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">GitHub</a>
-          </div>
         </div>
       </footer>
     </div>
