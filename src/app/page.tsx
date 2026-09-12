@@ -86,29 +86,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Divider */}
-      <div className="max-w-4xl mx-auto px-6">
-        <div className="border-t border-black/10"></div>
-      </div>
-
-      {/* Partnership offer */}
-      <section id="contact" className="py-20 px-6">
+      {/* CTA */}
+      <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-8">How to work with me</p>
-          
-          <div className="p-8 border border-black">
-            <p className="text-xs font-medium tracking-widest uppercase text-black/40 mb-4">Technology & AI Partnership</p>
-            <p className="text-4xl md:text-5xl font-light mb-6">From $750/month</p>
-            <p className="text-black/60 max-w-lg mb-8">
-              I combine my experience, time and technology/AI to implement real solutions for your business.
-            </p>
-            <a 
-              href="mailto:mlaurenz@gmail.com?subject=Partnership"
-              className="inline-block px-8 py-3 bg-black text-white text-sm font-medium hover:bg-black/80 transition-colors"
-            >
-              HABLEMOS
-            </a>
-          </div>
+          <a 
+            href="mailto:mlaurenz@gmail.com?subject=Hola"
+            className="text-2xl md:text-3xl font-light border-b border-black hover:text-black/60 transition-colors"
+          >
+            HABLEMOS →
+          </a>
         </div>
       </section>
 
