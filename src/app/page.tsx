@@ -23,7 +23,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md z-50 border-b border-black/5">
         <div className="max-w-3xl mx-auto px-6 py-4 flex justify-between items-center">
-          <span className="text-lg font-semibold tracking-tight">ML</span>
+          <span className="text-lg font-semibold tracking-tight">Matías Laurenz</span>
           <div className="flex gap-6 text-sm">
             <a href="#what" className="text-black/60 hover:text-black transition-colors">What</a>
             <a href="#about" className="text-black/60 hover:text-black transition-colors">About</a>
